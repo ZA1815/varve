@@ -1,7 +1,7 @@
 mod claim;
 mod evidence;
 
-use crate::account::case_file::entry::{claim::Claim, evidence::Evidence};
+use crate::account::dossier::entry::{claim::Claim, evidence::Evidence};
 
 pub struct Entry {
     claim: Claim,

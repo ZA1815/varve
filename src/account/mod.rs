@@ -1,10 +1,10 @@
-mod case_file;
+mod dossier;
 
 use blake3::Hash;
 use indexmap::IndexMap;
 
-use crate::account::case_file::CaseFile;
+use crate::account::dossier::Dossier;
 
 pub struct Varve {
-    files: IndexMap<Hash, CaseFile>
+    files: IndexMap<Hash, Dossier>
 }

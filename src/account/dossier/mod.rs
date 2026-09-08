@@ -3,8 +3,8 @@ mod entry;
 use blake3::Hash;
 use indexmap::IndexMap;
 
-use crate::account::case_file::entry::Entry;
+use crate::account::dossier::entry::Entry;
 
-pub struct CaseFile {
+pub struct Dossier {
     entries: IndexMap<Hash, Entry>
 }
