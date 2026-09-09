@@ -1,11 +1,13 @@
+use std::collections::HashSet;
+
 use time::Timestamp;
 
 use crate::workbench::descriptors::{instruments::Instrument, mediums::Medium};
 
 pub struct Event {
     kind: EventKind,
-    instrument: Instrument,
-    medium: Medium,
+    instruments: HashSet<Instrument>,
+    mediums: HashSet<Medium>,
     from: Timestamp,
     to: Timestamp
 }
