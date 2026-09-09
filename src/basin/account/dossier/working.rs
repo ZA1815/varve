@@ -2,7 +2,7 @@ use blake3::Hash;
 use indexmap::IndexMap;
 use time::Timestamp;
 
-use crate::account::{claim::Claim, dossier::{Dossier, event::Event}};
+use crate::basin::account::{claim::Claim, dossier::{Dossier, event::Event}};
 
 pub struct WorkingDossier {
     claims: IndexMap<Hash, Claim>,

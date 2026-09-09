@@ -5,7 +5,7 @@ use blake3::Hash;
 use indexmap::IndexMap;
 use time::Timestamp;
 
-use crate::account::{claim::Claim, dossier::Dossier};
+use crate::basin::account::{claim::Claim, dossier::Dossier};
 
 pub struct Varve {
     claims: IndexMap<Hash, Claim>,

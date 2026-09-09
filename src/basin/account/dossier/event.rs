@@ -2,7 +2,7 @@ use std::collections::HashSet;
 
 use time::Timestamp;
 
-use crate::workbench::descriptors::{instruments::Instrument, mediums::Medium};
+use crate::basin::descriptors::{instruments::Instrument, mediums::Medium};
 
 pub struct Event {
     kind: EventKind,

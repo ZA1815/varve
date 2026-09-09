@@ -1,7 +1,7 @@
 pub mod planning;
 pub mod research;
 
-use crate::workbench::descriptors::instruments::general::{planning::PlanningInstrument, research::ResearchInstrument};
+use crate::basin::descriptors::instruments::general::{planning::PlanningInstrument, research::ResearchInstrument};
 
 pub enum GeneralInstrument {
     Planning(PlanningInstrument),
