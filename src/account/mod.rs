@@ -13,3 +13,13 @@ pub struct Varve {
     from: Timestamp
     // Think about adding a `to` field, will a varve ever be "completed"?
 }
+
+impl Varve {
+    pub fn new() -> Varve {
+        Varve {
+            claims: IndexMap::new(),
+            dossiers: IndexMap::new(),
+            from: Timestamp::now()
+        }
+    }
+}
