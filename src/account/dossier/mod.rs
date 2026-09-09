@@ -1,10 +1,11 @@
-mod entry;
+mod event;
 
 use blake3::Hash;
 use indexmap::IndexMap;
 
-use crate::account::dossier::entry::Entry;
+use crate::account::{claim::Claim, dossier::event::Event};
 
 pub struct Dossier {
-    entries: IndexMap<Hash, Entry>
+    claims: IndexMap<Hash, Claim>,
+    events: IndexMap<Hash, Event>
 }
