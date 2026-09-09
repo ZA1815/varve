@@ -1,4 +1,4 @@
-mod event;
+pub mod event;
 
 use blake3::Hash;
 use indexmap::IndexMap;

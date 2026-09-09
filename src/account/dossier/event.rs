@@ -1,9 +1,6 @@
-mod instrument;
-mod medium;
-
 use time::Timestamp;
 
-use crate::account::dossier::event::{instrument::Instrument, medium::Medium};
+use crate::workbench::descriptors::{instruments::Instrument, mediums::Medium};
 
 pub struct Event {
     kind: EventKind,

@@ -1,5 +1,5 @@
-mod claim;
-mod dossier;
+pub mod claim;
+pub mod dossier;
 
 use blake3::Hash;
 use indexmap::IndexMap;
