@@ -192,3 +192,11 @@ dependencies = [
  "indexmap",
  "time",
 ]
+
+[[package]]
+name = "varve-basin"
+version = "0.1.0"
+
+[[package]]
+name = "varve-cli"
+version = "0.1.0"
