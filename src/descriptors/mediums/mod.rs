@@ -1,7 +1,7 @@
 pub mod general;
 pub mod software;
 
-use crate::basin::descriptors::mediums::{general::GeneralMedium, software::SoftwareMedium};
+use crate::descriptors::mediums::{general::GeneralMedium, software::SoftwareMedium};
 
 // Start to enumerate this soon
 pub enum Medium {
