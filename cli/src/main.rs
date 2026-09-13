@@ -9,10 +9,16 @@ struct Cli {
 
 #[derive(Subcommand)]
 pub enum Command {
+    // addressing -> stream
     Deposit,
     Stream,
+    Designate,
+
+    // varve
     Dossier,
     Profile,
+
+    // basin
     Acquire,
     Publish
 }
