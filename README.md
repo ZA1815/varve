@@ -1,3 +1,3 @@
 # Repository Moved
 
-The code from this repository has migrated to repositories under **[varveorg](https://github.com/terranesoftware)**.
+The code from this repository has migrated to repositories under **[terranesoftware](https://github.com/terranesoftware)**.
